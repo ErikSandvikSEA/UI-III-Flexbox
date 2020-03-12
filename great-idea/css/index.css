@@ -81,7 +81,7 @@ header nav{
 	justify-content: space-around;
 	align-items: center;
 }
-.links a{
+.links a, .vision-links a{
 	display: flex;
 	/* justify-content: space-around; */
 	color: slategray;
@@ -168,12 +168,12 @@ address{
 	flex-direction: column;
 	margin: 2% 0;
 }
-.services-body{
+.services-body, .vision-body{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.services-body-div{
+.services-body-div, .vision-body-div{
 	display: flex;
 	flex-direction: column;
 	width: 49%;
@@ -218,6 +218,7 @@ address{
 ul li{
 	margin: 2%;
 	width: 50%;
+	text-align: center;
 }
 .facts-title-body-list{
 	width: 45%;
@@ -227,4 +228,27 @@ ul li{
 }
 .services-info-pic{
 	width: 47%;
+}
+.vision-facts ul{
+	display: flex;
+	flex-direction: column;
+	height: 20vh;
+	justify-content: center;
+	padding:3%;
+	list-style-type:square;
+	align-content: center;
+	align: center;
+}
+.vision-main-body{
+	width: 30%;
+}
+.vision-facts .facts-title-body-list{
+	width: 100%;
+}
+.vision-links{
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 }
